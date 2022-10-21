@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -25,6 +26,10 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        <activity android:name="com.wzp.myselfcode.dialog.UseDialogActivity" />
+        <activity android:name="com.wzp.myselfcode.RxJava01.RxJava01Activity" />
+        <activity android:name="com.wzp.myselfcode.retrofit.retrofit01.RetrofitActivity" />
+        <activity android:name="com.wzp.myselfcode.RxJava_Observe.RxActivity" />
     </application>
 
 </manifest>
