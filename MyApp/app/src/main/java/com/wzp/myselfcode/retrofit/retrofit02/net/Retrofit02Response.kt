@@ -1,4 +1,4 @@
-package com.wzp.myselfcode.retrofit.retrofit02
+package com.wzp.myselfcode.retrofit.retrofit02.net
 
 data class Retrofit02Response(
     val code: Int,

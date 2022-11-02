@@ -5,9 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wzp.myselfcode.RxJava01.RxJava01Activity
 import com.wzp.myselfcode.RxJava_Observe.RxActivity
+import com.wzp.myselfcode.broadcast.BroadcastActivity
+import com.wzp.myselfcode.coroutines.Coroutine01Activity
 import com.wzp.myselfcode.databinding.ActivityMainBinding
 import com.wzp.myselfcode.dialog.UseDialogActivity
 import com.wzp.myselfcode.retrofit.retrofit01.RetrofitActivity
+import com.wzp.myselfcode.retrofit.retrofit02.ui.Retrofit02Activity
+import com.wzp.myselfcode.selfView.SelfViewActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -30,6 +34,18 @@ class MainActivity : AppCompatActivity() {
         }
         binding.toRxActivity.setOnClickListener {
             startActivity(Intent(this, RxActivity::class.java))
+        }
+        binding.toRetrofit02Activity.setOnClickListener {
+            startActivity(Intent(this, Retrofit02Activity::class.java))
+        }
+        binding.toCoroutine.setOnClickListener {
+            startActivity(Intent(this, Coroutine01Activity::class.java))
+        }
+        binding.toSelfView.setOnClickListener {
+            startActivity(Intent(this, SelfViewActivity::class.java))
+        }
+        binding.toBroadcast.setOnClickListener {
+            startActivity(Intent(this, BroadcastActivity::class.java))
         }
     }
 }

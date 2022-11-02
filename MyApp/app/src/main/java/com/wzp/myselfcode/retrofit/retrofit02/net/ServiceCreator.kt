@@ -1,4 +1,4 @@
-package com.wzp.myselfcode.retrofit.retrofit02
+package com.wzp.myselfcode.retrofit.retrofit02.net
 
 import android.util.Log
 import okhttp3.OkHttpClient

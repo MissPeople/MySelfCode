@@ -30,6 +30,11 @@
         <activity android:name="com.wzp.myselfcode.RxJava01.RxJava01Activity" />
         <activity android:name="com.wzp.myselfcode.retrofit.retrofit01.RetrofitActivity" />
         <activity android:name="com.wzp.myselfcode.RxJava_Observe.RxActivity" />
+        <activity android:name="com.wzp.myselfcode.retrofit.retrofit02.ui.Retrofit02Activity" />
+        <activity android:name="com.wzp.myselfcode.coroutines.Coroutine01Activity" />
+        <activity android:name="com.wzp.myselfcode.broadcast.BroadcastActivity" />
+        <activity android:name="com.wzp.myselfcode.broadcast.dynamic.DynamicBroadcast" />
+        <activity android:name="com.wzp.myselfcode.broadcast.standard.StandardBroadcast" />
     </application>
 
 </manifest>

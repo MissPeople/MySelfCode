@@ -47,6 +47,42 @@
             android:gravity="center"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/toRetrofit02Activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toRetrofit02Activity"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/toCoroutine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toCoroutine"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/toSelfView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toSelfView"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/toBroadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="toBroadcast"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
 
     </LinearLayout>
 

@@ -1,6 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.wzp.myselfcode.selfView.uiDesign.SelfView01
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@drawable/background"
+            android:text="@string/dasda" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasfvvda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasdvdsva" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="sa" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasxasxasda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasxxxda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasxda" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="@drawable/background"
+            android:text="dasda" />
+    </com.wzp.myselfcode.selfView.uiDesign.SelfView01>
+
+    <com.wzp.myselfcode.selfView.uiDesign.SelfView02
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:background="@drawable/background"
+            android:text="@string/dasda" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasfvvda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasdvdsva" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="sa" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasxasxasda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasxxxda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasda" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:background="@drawable/background"
+            android:text="dasxda" />
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:background="@drawable/background"
+            android:text="dasda" />
+    </com.wzp.myselfcode.selfView.uiDesign.SelfView02>
+
+    <com.wzp.myselfcode.selfView.uiDesign.SelfView03
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单来说是用图片对图形进行贴图"
+        android:textColor="#666666"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

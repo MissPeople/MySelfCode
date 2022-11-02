@@ -1,4 +1,4 @@
-package com.wzp.myselfcode.uiDesign;
+package com.wzp.myselfcode.selfView.uiDesign;
 
 import android.content.Context;
 import android.util.AttributeSet;
